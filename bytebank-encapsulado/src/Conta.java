@@ -6,7 +6,7 @@ public class Conta {
     private Cliente titular;
 
     {
-        numeroConta++;
+        Conta.numeroConta++;
         numero = numeroConta;
     }
 
@@ -18,7 +18,7 @@ public class Conta {
         this.titular = titular;
     }
 
-    public String getAgencia() {
+    public static String getAgencia() {
         return AGENCIA;
     }
 
