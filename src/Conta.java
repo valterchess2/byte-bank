@@ -3,22 +3,19 @@ public class Conta {
     private static final String AGENCIA = "0001";
     private static int numeroConta = 0;
     private final int numero;
-    private final String titular;
+    private Cliente titular;
 
-    public Conta(String titular){
+    {
         numeroConta++;
         numero = numeroConta;
-        this.titular = titular;
-    }
-    // para aplicar o conceito de imutabilidade
- private Conta(Conta conta, double saldo){
-        this.titular = conta.getTitular();
-        this.numero = conta.getNumero();
-        this.saldo = saldo;
     }
 
     public double getSaldo() {
         return saldo;
+    }
+
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
     }
 
     public String getAgencia() {
@@ -29,12 +26,30 @@ public class Conta {
         return numero;
     }
 
-    public Conta deposita(double valor){
-        Conta contaNovoSaldo = new Conta(this, valor);
-        return contaNovoSaldo;
+    public Cliente getTitular() {
+        return titular;
     }
 
-    public String getTitular() {
-        return titular;
+    public void deposita(double valor) {
+        if (valor > 0) {
+            this.saldo += valor;
+        }
+    }
+
+    public boolean saca(double valor) {
+        if (this.saldo >= valor && valor > 0) {
+            this.saldo -= valor;
+            return true;
+        }
+        return false;
+    }
+
+    public boolean transfere(double valor, Conta contaDestino) {
+        if (valor > 10 && this.saldo >= valor && contaDestino != null) {
+            this.saca(valor);
+            contaDestino.deposita(valor);
+            return true;
+        }
+        return false;
     }
 }
