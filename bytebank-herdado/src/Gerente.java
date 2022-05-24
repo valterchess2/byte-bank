@@ -1,23 +1,25 @@
 // gerente é um funcionário
-public class Gerente extends Funcionario implements Autenticavel{
-    private int senha;
+public class Gerente extends Funcionario implements Autenticavel {
+    private Autenticador autenticador;
+
+    public Gerente() {
+        this.autenticador = new Autenticador();
+    }
+
     @Override
     public void setSenha(int senha) {
-        this.senha = senha;
+        this.autenticador.setSenha(senha);
     }
 
     @Override
     public boolean autentica(int senha) {
-        {
-            if (this.senha == senha) {
-                return true;
-            }
-            return false;
-        }
-    }
-    @Override
-    public double getBonificacao(){
-        return this.getSalario();
+        return this.autenticador.autentica(senha);
     }
 
+    @Override
+    public double getBonificacao() {
+        System.out.println("chamando o método de bonificação de GERENTE");
+        return super.getSalario();
     }
+
+}
