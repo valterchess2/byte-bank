@@ -1,5 +1,5 @@
 // gerente é um funcionário
-public class Gerente extends Funcionario {
+public class Gerente extends FuncionarioAutenticavel {
     private int senha;
 
     public void setSenha(int senha) {
@@ -13,8 +13,8 @@ public class Gerente extends Funcionario {
         return false;
     }
 
-//    public double getBonificacao(){
-//        return this.salario;
-//    }
+    public double getBonificacao(){
+        return this.getSalario();
+    }
 
 }

@@ -1,9 +1,7 @@
-public abstract class Funcionario {
+public class Cliente {
     private String nome;
     private String cpf;
-    private double salario;
-
-    public abstract double getBonificacao();
+    private String profissao;
 
     public String getNome() {
         return nome;
@@ -21,12 +19,11 @@ public abstract class Funcionario {
         this.cpf = cpf;
     }
 
-    public double getSalario() {
-        return salario;
+    public String getProfissao() {
+        return profissao;
     }
 
-    public void setSalario(double salario) {
-        this.salario = salario;
+    public void setProfissao(String profissao) {
+        this.profissao = profissao;
     }
-
 }

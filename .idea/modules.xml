@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Alura.iml" filepath="$PROJECT_DIR$/.idea/Alura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/alura.iml" filepath="$PROJECT_DIR$/.idea/alura.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytebank-encapsulado/bytebank-encapsulado.iml" filepath="$PROJECT_DIR$/bytebank-encapsulado/bytebank-encapsulado.iml" />
       <module fileurl="file://$PROJECT_DIR$/bytebank-herdado/bytebank-herdado.iml" filepath="$PROJECT_DIR$/bytebank-herdado/bytebank-herdado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytebank-herdado-conta/bytebank-herdado-conta.iml" filepath="$PROJECT_DIR$/bytebank-herdado-conta/bytebank-herdado-conta.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-basico-alura/java-basico-alura.iml" filepath="$PROJECT_DIR$/java-basico-alura/java-basico-alura.iml" />
     </modules>
   </component>
