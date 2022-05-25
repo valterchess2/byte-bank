@@ -1,3 +1,5 @@
+import enums.Prioridade;
+
 public class Teste {
     public static void main(String[] args) {
        Prioridade pmin = Prioridade.MIN;

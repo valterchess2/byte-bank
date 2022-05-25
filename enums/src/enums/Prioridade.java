@@ -1,3 +1,5 @@
+package enums;
+
 public enum Prioridade {
     MIN(1), NORMAL(5), MAX(10);
     private int valor;

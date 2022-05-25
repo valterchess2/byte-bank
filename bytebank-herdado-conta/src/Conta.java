@@ -1,4 +1,5 @@
 public abstract class  Conta {
+    @DoublePositivo
     protected double saldo;
     private static final String AGENCIA = "0001";
     private static int numeroConta = 0;
