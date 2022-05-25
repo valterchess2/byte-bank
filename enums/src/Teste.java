@@ -1,7 +1,15 @@
 public class Teste {
     public static void main(String[] args) {
-        Thread thread1 = new Thread(() -> System.out.println("rodando..."));
-        thread1.setPriority(Thread.MAX_PRIORITY);
-        thread1.start();
+       Prioridade pmin = Prioridade.MIN;
+       Prioridade pmax = Prioridade.MAX;
+
+        System.out.println(pmin.name());
+        System.out.println(pmax.name());
+
+        System.out.println(pmin.ordinal());
+        System.out.println(pmax.ordinal());
+
+        System.out.println(pmin.getValor());
+        System.out.println(pmax.getValor());
     }
 }
