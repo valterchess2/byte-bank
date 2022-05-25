@@ -1,4 +1,4 @@
-public abstract class  Conta {
+public abstract class Conta {
     @DoublePositivo
     protected double saldo;
     private static final String AGENCIA = "0001";
@@ -10,7 +10,7 @@ public abstract class  Conta {
         Conta.numeroConta++;
     }
 
-    public Conta(int numero, Cliente titular){
+    public Conta(int numero, Cliente titular) {
         this.titular = titular;
         this.numero = numero;
     }
@@ -37,20 +37,15 @@ public abstract class  Conta {
 
     public abstract void deposita(double valor);
 
-    public boolean saca(double valor) {
-        if (this.saldo >= valor && valor > 0) {
-            this.saldo -= valor;
-            return true;
+    public void saca(double valor)  throws SaldoInsuficienteException{
+        if (this.saldo < valor) {
+            throw new SaldoInsuficienteException("Saldo: " + this.saldo + " Valor: " + valor);
         }
-        return false;
+        saldo -= valor;
     }
 
-    public boolean transfere(double valor, Conta contaDestino) {
-        if (valor > 0 && this.saldo >= valor && contaDestino != null) {
-            this.saca(valor);
-            contaDestino.deposita(valor);
-            return true;
-        }
-        return false;
+    public void transfere(double valor, Conta destino) throws SaldoInsuficienteException{
+        this.saca(valor);
+        destino.deposita(valor);
     }
 }
