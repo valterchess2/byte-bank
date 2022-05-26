@@ -1,4 +1,8 @@
-package br.com.bytebank.banco.modelo;
+package br.com.bytebank.banco.modelo.Conta;
+
+import br.com.bytebank.banco.modelo.Cliente.Cliente;
+import br.com.bytebank.banco.contratos.DoublePositivo;
+import br.com.bytebank.banco.exceptions.SaldoInsuficienteException;
 
 /**
  * <h2>Classe que representa o modelo de uma conta</h2>
@@ -68,5 +72,11 @@ public abstract class Conta {
     public void transfere(double valor, Conta destino) throws SaldoInsuficienteException{
         this.saca(valor);
         destino.deposita(valor);
+    }
+
+    @Override
+    public String toString() {
+        return "Número: " + this.getNumero()
+                + ", Agencia: " + Conta.AGENCIA;
     }
 }

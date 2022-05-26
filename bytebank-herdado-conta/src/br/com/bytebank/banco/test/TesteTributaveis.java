@@ -1,9 +1,9 @@
 package br.com.bytebank.banco.test;
 
-import br.com.bytebank.banco.modelo.CalculaImposto;
-import br.com.bytebank.banco.modelo.Cliente;
-import br.com.bytebank.banco.modelo.ContaCorrente;
-import br.com.bytebank.banco.modelo.SeguroDeVida;
+import br.com.bytebank.banco.modelo.servicosbancarios.CalculaImposto;
+import br.com.bytebank.banco.modelo.Cliente.Cliente;
+import br.com.bytebank.banco.modelo.Conta.ContaCorrente;
+import br.com.bytebank.banco.modelo.servicosbancarios.SeguroDeVida;
 
 public class TesteTributaveis {
     public static void main(String[] args) {

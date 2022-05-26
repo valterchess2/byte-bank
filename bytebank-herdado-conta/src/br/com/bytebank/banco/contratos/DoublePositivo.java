@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.modelo;
+package br.com.bytebank.banco.contratos;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
