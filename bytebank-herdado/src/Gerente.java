@@ -1,6 +1,6 @@
 // gerente é um funcionário
 public class Gerente extends Funcionario implements Autenticavel {
-    private Autenticador autenticador;
+    private final Autenticador autenticador;
 
     public Gerente() {
         this.autenticador = new Autenticador();

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da226d44-47ec-4534-a822-0ef0202f4612" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../bytebank-herdado/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bytebank-herdado/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado-conta/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/bytebank-encapsulado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/src/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/src/CriaConta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/src/TestaBanco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-encapsulado/src/TesteReferencias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado-conta/bytebank-herdado-conta.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/.idea/sonarlint/issuestore/1/2/12bba3cfacd9b389fdb30b35266a85a4f4b5b27f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/.idea/sonarlint/issuestore/3/3/33ddd67118343cbaf328f2c7fd55cb208341ce1f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/.idea/sonarlint/issuestore/a/c/ac0ced0f5f237cacd46400d5b5ac055ba9ad7300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/.idea/sonarlint/issuestore/d/5/d53a3fc0bd5d46f0e97b13ff5ab01dec4db136d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/.idea/sonarlint/issuestore/d/a/da609e66a53717ef31976c3203c52344a00a057d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/.idea/sonarlint/issuestore/d/c/dc86bebed7133e68fbc8408c261d4329b3031f37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../bytebank-herdado/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/bytebank-herdado.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/Administrador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/ControleBonificacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/Designer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/EditorDeVideo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/Gerente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/SistemaInterno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/TesteGerente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/TesteReferencias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/out/production/bytebank-herdado/TesteSistema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/Administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/Autenticador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/Autenticavel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/ControleBonificacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/Designer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/EditorDeVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/Gerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/SistemaInterno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/TesteGerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/TesteReferencias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bytebank-herdado/src/TesteSistema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../enums/enums.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-basico-alura/java-basico-alura.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-pilha/java-pilha.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="29hpsWEMqB5PSAk1FW2c1n3o1oI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/dev/IdeaProjects/alura/bytebank-herdado"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da226d44-47ec-4534-a822-0ef0202f4612" name="Changes" comment="" />
+      <created>1653575378601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653575378601</updated>
+    </task>
+    <servers />
+  </component>
+</project>
