@@ -2,51 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b328f67-dd77-4768-9c8e-bd42cdf8e016" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bytebank_herdado_conta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TestaString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TesteArrayPrimitivos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TesteArraysReferencias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TesteObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/servicos/GuardadorDeContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TesteArrayString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/especial/ContaEspecial.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/especial/ContaEspecial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/CalculaImposto.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/CalculaImposto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/Cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/Cliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/Conta.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/Conta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/ContaCorrente.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/ContaCorrente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/ContaPoupanca.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/ContaPoupanca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/SaldoInsuficienteException.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/SaldoInsuficienteException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/SeguroDeVida.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/SeguroDeVida.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/CalculaImposto.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/CalculaImposto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/Cliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/Cliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/Conta.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/Conta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/ContaCorrente.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/ContaCorrente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/ContaPoupanca.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/ContaPoupanca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/DoublePositivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/DoublePositivo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/SaldoInsuficienteException.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/SaldoInsuficienteException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/SeguroDeVida.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/SeguroDeVida.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/Tributavel.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/br/com/bytebank/banco/modelo/class-use/Tributavel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/ContaCorrente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/ContaPoupanca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/especial/ContaEspecial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/especial/ContaEspecial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/CalculaImposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/servicosbancarios/CalculaImposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/DoublePositivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/contratos/DoublePositivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/SaldoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/exceptions/SaldoInsuficienteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/SeguroDeVida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/servicosbancarios/SeguroDeVida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Tributavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/contratos/Tributavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TestaContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TestaContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TesteSaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TesteSaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TesteTributaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/test/TesteTributaveis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/especial/ContaEspecial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/especial/ContaEspecial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/CalculaImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/DoublePositivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/SaldoInsuficienteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/SeguroDeVida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/modelo/Tributavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TestaContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TestaContas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/test/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/test/Teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteSaca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteSaca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteTributaveis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank-herdado-conta/br/com/bytebank/banco/test/TesteTributaveis.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +63,40 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.br.com.bytebank.banco.test.TesteObject">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.bytebank.banco.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Teste">
     <configuration name="TestaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.test.TestaString" />
+      <module name="bytebank-herdado-conta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytebank.banco.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.test.Teste" />
+      <module name="bytebank-herdado-conta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytebank.banco.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteArrayString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.test.TesteArrayString" />
       <module name="bytebank-herdado-conta" />
       <extension name="coverage">
         <pattern>
@@ -119,6 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste" />
+        <item itemvalue="Application.TesteArrayString" />
         <item itemvalue="Application.br.com.bytebank.banco.test.TesteObject" />
         <item itemvalue="Application.br.com.bytebank.banco.test.TestaString" />
       </list>
